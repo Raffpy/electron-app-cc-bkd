@@ -1,7 +1,5 @@
 //address of native addon
-const {
-  add,
-} = require("./Nodejs-Napi-Addon-Using-Cmake/build/Release/addon.node");
+const { add } = require("./NodejsNapiAddonUsingCmake/addon.node");
 
 //calling functions of native addon
 var result = add(3, 4);
